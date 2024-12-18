@@ -29,7 +29,7 @@ function calculateScore() {
         }
     }
 
-    // Afficher le résultat
+   
     var resultat = document.getElementById("resultat");
     resultat.innerHTML = `
         <p>Votre score est de <strong>${score}/${totalQuestions}</strong>.</p>
